@@ -1,0 +1,26 @@
+.main-container {
+    width: 914px;
+    height: 640px;
+    padding-top: 103px;
+    padding-left: 353px;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #03045E;
+}
+
+.socials-list {
+    width: 914px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.socials-item {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    column-gap: 237px;
+}

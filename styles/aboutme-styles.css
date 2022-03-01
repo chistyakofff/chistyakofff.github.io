@@ -1,0 +1,43 @@
+#mySlider {
+    width: 454px;
+    height: 302px;
+    margin-left: 473px;
+}
+
+.my-stack {
+    width: 386px;
+    height: 252px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    width: 32px;
+    height: 32px;
+}
+
+.text-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    font-family: Sansation-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #CFFFDC;
+    margin-top: 100px;
+}
+
+.footer-text {
+    margin-top: 67.33px;
+    margin-bottom: 90px;
+}
+
+#about-me {
+    text-align: right;
+    width: 570px;
+    height: 144px;
+}
