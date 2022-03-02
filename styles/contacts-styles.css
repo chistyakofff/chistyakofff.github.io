@@ -24,3 +24,34 @@
     align-items: center;
     column-gap: 237px;
 }
+
+@media all and (max-width: 896px) {
+
+    .body-container,
+    .header-container {
+        width: 100%;
+        font-size: 0.65em;
+    }
+
+    .main-container {
+        width: 1em;
+        padding-left: 0.9em;
+        padding-top: 0.9em;
+        margin: 0;
+    }
+
+    .socials-list {
+        width: 100%;
+        row-gap: 10vh;
+    }
+
+    img {
+        width: 1em;
+    }
+
+    .socials-item {
+        width: 90vw;
+        column-gap: 5vw;
+        font-size: 1rem;
+    }
+}

@@ -1,7 +1,9 @@
+
 @font-face {
     font-family: Sansation-Regular;
     src: url(./Sansation/Sansation-Regular.woff2);
 }
+
 
 html {
     min-height: 100%;
@@ -23,6 +25,7 @@ body {
     font-size: 48px;
     line-height: 100%;
     background: linear-gradient(180deg, #570530 0%, rgba(224, 221, 170, 0.92) 100%);
+    background-repeat: no-repeat;
 }
 
 .body-container {
@@ -53,3 +56,4 @@ body {
 .current-link {
     text-decoration: underline;
 }
+
