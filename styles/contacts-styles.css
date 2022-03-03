@@ -34,24 +34,33 @@
     }
 
     .main-container {
-        width: 1em;
-        padding-left: 0.9em;
-        padding-top: 0.9em;
-        margin: 0;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20%;
     }
 
     .socials-list {
-        width: 100%;
+        width: 90vw;
         row-gap: 10vh;
+        display: flex;
+        align-items: center;
     }
 
     img {
-        width: 1em;
+        width: 18.72px;
+        height: 18.72px;
     }
 
     .socials-item {
-        width: 90vw;
+        width: 90%;
         column-gap: 5vw;
-        font-size: 1rem;
+        font-size: 0.5em;
+    }
+
+    .socials-item>a {
+        height: 80%;
+        margin-top: auto;
+        margin-bottom: auto;
+        
     }
 }
